@@ -39,7 +39,7 @@ content{
 #about{
 	background-color: black;
 	font-family: sans-serif;
-	border: white 2px solid;
+	border: black 2px solid;
 	margin: 10px;
 	width: 46.5%;
 	text-align: center;
@@ -48,7 +48,7 @@ content{
 }
 
 #teaching{
-	border: red solid 2px;
+	border: black solid 2px;
 	font-family: sans-serif;
 	grid-column: 1 / 4;
 	grid-row: 2 / 2;
@@ -79,7 +79,7 @@ content{
 
 }
 #translation{
-	border: white 2px solid;
+	border: black 2px solid;
 	grid-column: 1 / 4;
 	grid-row: 3 / 6;
 }
