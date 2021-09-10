@@ -1,0 +1,85 @@
+body{
+	background-color: black;
+	color: white;
+	display: grid;
+	border: black 2px solid ;
+
+	grid-template-columns:  1fr 1fr 1fr;
+	grid-template-rows: 	2fr 2fr 2fr 2fr;
+}
+nav{
+	border: black 2px solid ;
+	grid-column: 1 / 5;
+	grid-row: 1 / 1;
+}
+a{
+	border: black 2px solid ;
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	padding-left: 100px;
+
+}
+a:hover{
+	color: violet;
+}
+li{
+	display: inline-flex;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+content{
+	border: black solid 2px;
+	grid-column: 1 / 5;
+	display: grid;
+	grid-template-columns:  1fr 1fr 1fr;
+	grid-template-rows: 	2fr 2fr 2fr 2fr;
+}
+#about{
+	background-color: black;
+	font-family: sans-serif;
+	border: white 2px solid;
+	margin: 10px;
+	width: 46.5%;
+	text-align: center;
+	grid-column: 2 / 6 ;
+	grid-row: 1 / 1;
+}
+
+#teaching{
+	border: red solid 2px;
+	font-family: sans-serif;
+	grid-column: 1 / 4;
+	grid-row: 2 / 2;
+	gap: 20px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50% 50%;
+
+}
+
+#get{
+	border: black solid 2px;
+	width: 500px;
+	grid-column: 1 / 1;
+	grid-row: 1 / 1;
+	padding: 20px;
+}
+
+#knn{
+	border: black solid 2px;
+	padding: 20px;
+	width: 500px;
+	grid-column: 2 / 2;
+	grid-row:1 / 1 ;
+}
+#free-lance{
+
+}
+#translation{
+	border: white 2px solid;
+	grid-column: 1 / 4;
+	grid-row: 4 / 4;
+}
