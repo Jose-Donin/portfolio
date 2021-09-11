@@ -4,11 +4,15 @@ body{
 	display: grid;
 	border: black 2px solid ;
 
-	grid-template-columns:  1fr 1fr 1fr;
-	grid-template-rows: 	2fr 2fr 2fr 2fr;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
+	grid-template-rows: 	10% 25% 25% 25%;
+}
+h1, h2, h3{
+	color: #9900ff;
 }
 nav{
-	border: black 2px solid ;
+	border: black 2px solid;
+	border-radius: 20px;
 	grid-column: 1 / 5;
 	grid-row: 1 / 1;
 }
@@ -21,7 +25,7 @@ a{
 
 }
 a:hover{
-	color: violet;
+	color: #9900ff;
 }
 li{
 	display: inline-flex;
@@ -32,19 +36,26 @@ li{
 content{
 	border: black solid 2px;
 	grid-column: 1 / 5;
+	grid-row: 2 / 3;
 	display: grid;
 	grid-template-columns:  1fr 1fr 1fr;
-	grid-template-rows: 	2fr 2fr 2fr 2fr;
+	grid-template-rows: 	1fr 1fr 1fr;
 }
 #about{
 	background-color: black;
 	font-family: sans-serif;
 	border: black 2px solid;
-	margin: 10px;
-	width: 46.5%;
+	margin-top: 45%;
+	/*mwidth: 46.5%;*/
 	text-align: center;
-	grid-column: 2 / 6 ;
+	grid-column: 1 / 8 ;
 	grid-row: 1 / 1;
+}
+#about p{
+	border: black solid 2px;
+	text-align: left;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #teaching{
@@ -52,34 +63,65 @@ content{
 	font-family: sans-serif;
 	grid-column: 1 / 4;
 	grid-row: 2 / 2;
-	gap: 20px;
-	padding: 20px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50% 50%;
-
+	grid-template-columns: 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.teaching-title{
+	/*border: red solid 2px;*/
+	grid-column: 1 / 3;
+	grid-row: 1 / 1;
+	padding-top: 17%;
+	text-align: center;
 }
 
 #get{
-	border: black solid 2px;
-	width: 500px;
 	grid-column: 1 / 1;
-	grid-row: 1 / 1;
-	padding: 20px;
+	grid-row: 2 / 2;
+	text-align: center;
+
+	
+}
+#get p{
+	border: black 2px solid;
+	text-align: center;
 }
 
 #knn{
-	border: black solid 2px;
-	padding: 20px;
-	width: 500px;
-	grid-column: 2 / 2;
-	grid-row:1 / 1 ;
+	grid-column: 1 / 1;
+	grid-row: 3 / 3;
+	text-align: center;
 }
-#free-lance{
 
+#knn h3{
+	border: black 2px solid;
+	text-align: center;
+}
+
+#free-lance{
+	border: white 2px solid;
+	grid-row: 3 / 3;
+	text-align: center;
 }
 #translation{
-	border: black 2px solid;
+	border: blacks 2px solid;
+	margin-top: 350px;
 	grid-column: 1 / 4;
 	grid-row: 3 / 6;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+}
+.projects-translation{
+	grid-column: 1 / 4;
+	border: black 2px solid;
+}
+.projects-translation h1{
+	text-align: center;
+}
+footer{
+	grid-column: 1 / 6;
+	grid-row: 4 / 6;
+	font-size: 16px;
 }
