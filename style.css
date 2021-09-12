@@ -3,14 +3,24 @@ body{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 100% 100% 100%;
-	height: 1600px;
+	height: 1280px;
 	width: 720px;
 }
 
 
 
 h1, h2, h3{
+	color: #9900ff;
+}
+a, li{
+	display: inline-flex;
 	color: white;
+	text-decoration: none;
+}
+
+li{
+	padding: 10px;
+	margin: 10px;
 }
 a:hover{
 	color: #9900ff;
@@ -36,13 +46,59 @@ nav{
 
 
 content{
-	background-color: black;
+	background-color: white;
+}
+
+#main-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr; 
+	border: red solid 2px;
+	height: 100%;
+}
+
+.teaching{
+	grid-column: 1 / 5;
+	grid-row: 1 / 5 ;
+	border: red solid 2px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.teaching h1{
+	padding-left: 75%;
+}
+.teaching-get-it{
+	grid-column: 1 / 3;
+
+}
+
+.teaching-knn{
+	grid-column: 1 / 3;
 }
 
 
 
 
 
+
+
+.Translating{
+	grid-row: 2 / 2 ;	
+}
+
+.pti{
+	grid-row: 3 / 3 ;
+
+}
+
+.cibiogas{
+	grid-row: 4 / 4 ;
+
+
+
+}
 footer{
 	background-color: lightblue;
 }
