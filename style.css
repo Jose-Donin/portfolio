@@ -45,7 +45,7 @@ a{
 }
 
 nav{
-    max-height: 5rem;
+    min-height: 5rem;
     max-width: 40em;
     text-align: center;
     background-color: rgb(27, 27, 27);
@@ -54,7 +54,7 @@ nav{
 nav li{
     display: inline flex;
     justify-content: center;
-    padding: 1rem;
+   /* padding: 1rem;*/
     /*margin-left: 10px;*/
     font-size: large;
     color:white;
