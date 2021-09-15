@@ -13,6 +13,7 @@ h1{
     text-align: center;
 }
 img{
+    display: inline flex;
     width: 35px;
     border:rgb(27, 27, 27) 1px solid;
     border-radius: 10px;
