@@ -59,6 +59,10 @@ nav li{
     font-size: large;
     color:white;
 }
+nav ol{
+    padding:0px;
+    margin:0px;
+}
 a:hover{
     color:#9900ff;
     background-color: rgb(29, 29, 29);
