@@ -59,6 +59,9 @@ nav li{
     font-size: large;
     color:white;
 }
+nav ol{
+    text-align: center;
+}
 a:hover{
     color:#9900ff;
     background-color: rgb(29, 29, 29);
@@ -95,4 +98,10 @@ main{
 .teaching{
     background-color: rgb(27, 27, 27);
     border-radius: 20px;
+}
+.teaching img{
+    width: 100px;
+
+    margin-bottom: 10px;
+    
 }
