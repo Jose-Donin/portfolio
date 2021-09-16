@@ -39,7 +39,7 @@ ul, ol, li{
 a{
     text-decoration: none;
     /*padding: 1rem;*/
-    margin: auto;
+    margin: 0;
     display: inline flex;
     color: white;
 }
@@ -58,10 +58,6 @@ nav li{
     margin-left: 10px;
     font-size: large;
     color:white;
-}
-nav ol{
-    padding:0px;
-    margin:0px;
 }
 a:hover{
     color:#9900ff;
