@@ -119,21 +119,23 @@ main{
     margin-bottom: 10px;     
 }
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:550px) {
 
     /*The body needs to have its content justified in the center*/
     body{
+
     }
     nav{
         background-color: rgb(61, 61, 61);
         position: absolute;
-        left:35%;
-        width: 50%;
+        left:2%;
+        width: 9%;
+        top:2%; 
     }
     content{
-        position: absolute;
-        top:10%;
-        left:35%;
+        position: relative;
+        top:2%;
+        left:100%;
     }
     .about p:hover{
         color: white;
