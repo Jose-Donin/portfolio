@@ -72,7 +72,7 @@ nav ol{
 /* Content */
 content{
     border: 2px black solid;
-    max-width: 40rem;
+   
 }
 main{
     border: 2px black solid;
@@ -119,8 +119,15 @@ main{
     margin-bottom: 10px;     
 }
 
-@media screen and (min-width:550px) {
-    
-  
+@media screen and (min-width:600px) {
+    nav{
+        min-width: 82rem;
+    }
+    main{
+        min-width: 82rem;
+    }
+    .interships{
+        min-width: 50rem;
+    }
   
 }
