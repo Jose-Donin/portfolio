@@ -136,38 +136,11 @@ main{
 @media screen and (min-width:600px) {
     nav{
         min-width: 82rem;
+        margin-left:200px;
     }
     main{
         min-width: 82rem;
+        margin-left:200px;
     }
-    .teaching{
-        width: 40rem;
-        margin: .5rem;
-        background: #161616;
-    }
-    .teaching h1{
-        background: #1b1b1b;
-        border-radius: 20px;
-    }
-    .get-it{
-     /*   border:2px solid white;*/
-        border-radius: 20px;
-        margin: 10px;
-        background: #1b1b1b;
-    }
-    .KNN{
-        margin: 10px;
-        background: #1b1b1b;
-        border-radius: 20px;
-        margin-bottom: 10px;
-    }
-    .interships{
-        min-width: 50rem;
-    }
-    .translating{
-        width: 40rem;
-    }
-    .PTI{
-        width: 40rem;
-    }
+    
 }
