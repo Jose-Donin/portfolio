@@ -2,6 +2,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     max-width: 40rem;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -17,6 +19,15 @@ img{
     width: 35px;
     margin-top: 10px;
     border-radius: 5px;
+}
+div{
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+}
+div img{
+    width: 100px;
+    border:rgb(27, 27, 27) 1px solid;
+    margin-bottom: 10px; 
 }
 /*img:hover{
     border-bottom:3px solid #9900ff;
@@ -40,6 +51,7 @@ ul, ol, li{
 nav li:hover{
     border-bottom:#9900ff 3px solid;
 }
+
 a{
     text-decoration: none;
     /*padding: 1rem;*/
@@ -83,7 +95,13 @@ main{
     padding:.5rem;
     margin:.5rem;
 }
-.about{
+.PTI img{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    width: 10rem;
+}
+/*.about{
     background-color: rgb(27, 27, 27);
     border-radius: 20px;
    
@@ -99,12 +117,7 @@ main{
     background-color: rgb(27, 27, 27);
     border-radius: 20px;
 }
-.PTI img{
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid;
-    width: 10rem;
-}
+
 .translating{
     background-color: rgb(27, 27, 27);
     border-radius: 20px;
@@ -118,6 +131,7 @@ main{
     border:rgb(27, 27, 27) 1px solid;
     margin-bottom: 10px;     
 }
+*/
 
 @media screen and (min-width:600px) {
     nav{
