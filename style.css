@@ -36,7 +36,7 @@ div img{
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
     padding: 1rem;
     margin: 1rem;
 }
@@ -107,10 +107,13 @@ main{
 }
 .about p{
     
-    font-size:12px;
+    font-size:14px;
     
 }
+.schedule-app p{
+    font-size: 14px;
 
+}
 
 /*.about{
     background-color: rgb(27, 27, 27);
