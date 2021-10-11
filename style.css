@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
     background-color: black;
     max-width: 40rem;
     margin: 0;
@@ -101,17 +102,30 @@ main{
     border: 2px solid;
     width: 10rem;
 }
+.about h1{
+    color: #9900ff;
+}
+.about p{
+    
+    font-size:12px;
+    
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.profile-picture img{
+    width: 50px;
+    height: 50px;
+}
+}
 /*.about{
     background-color: rgb(27, 27, 27);
     border-radius: 20px;
    
 }
-.about p{
-    
-    text-align: center;
-    margin: 0;
-    margin-bottom:1rem;
-}
+
 
 .PTI{
     background-color: rgb(27, 27, 27);
