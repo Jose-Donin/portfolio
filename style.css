@@ -104,6 +104,11 @@ main{
 }
 .about h1{
     color: #9900ff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+   
+    
 }
 .about p{
     
@@ -111,10 +116,11 @@ main{
     
 }
 .about img{
-    width:100px;
-
-    border-radius: 40px;
-    padding: 0;
+    width:150px;
+    height: 160px;
+    outline: solid #9900ff;
+    border-radius: 150px;
+    padding: 0px;
     margin: 0;
 }
 .schedule-app p{
