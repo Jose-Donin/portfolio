@@ -166,7 +166,7 @@ main{
     }
     main{
         width: 192vh;
-        height: 180vh;
+        height: 160vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -218,5 +218,9 @@ main{
     .get-it{
         height: 52vh;
         grid-column: 1;
+    }
+    .KNN{
+        grid-column: 2 / 5;
+
     }
 }
