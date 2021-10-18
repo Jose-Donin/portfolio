@@ -122,32 +122,6 @@ main{
 
 }
 
-/*.about{
-    background-color: rgb(27, 27, 27);
-    border-radius: 20px;
-   
-}
-
-
-.PTI{
-    background-color: rgb(27, 27, 27);
-    border-radius: 20px;
-}
-
-.translating{
-    background-color: rgb(27, 27, 27);
-    border-radius: 20px;
-}
-.teaching{
-    background-color: rgb(27, 27, 27);
-    border-radius: 20px;
-}
-.teaching img{
-    width: 100px;
-    border:rgb(27, 27, 27) 1px solid;
-    margin-bottom: 10px;     
-}
-*/
 
 @media screen and (min-width:600px) {
     nav{
