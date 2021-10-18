@@ -161,12 +161,13 @@ main{
         min-width:194vh;
        
     }
+
     content{
         width: 100vh;
         overflow: hidden;
     }
     
-    }
+    
     main{
         width: 192vh;
        /* height: 160vh;*/
