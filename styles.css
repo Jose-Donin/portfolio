@@ -1,0 +1,12 @@
+body{
+    outline: solid 2px red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#about{
+    grid-column: 1 / 2;
+}
+#schedule-app{
+    grid-column: 2 / 5;
+}
