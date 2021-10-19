@@ -19,6 +19,14 @@ body{
 #about{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    border-radius: 50px;
+}
+#about img{
+    border-radius:  50%;
+    height:150px;
+    outline: solid #9900ff;
+
+
 }
 #schedule-app{
     grid-column: 2 / 2;
