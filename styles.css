@@ -10,7 +10,6 @@
     width: 150px;
 }
 body{
-    outline: solid 2px red;
     background: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
