@@ -20,12 +20,10 @@ body{
 #about{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    outline: rgb(32, 83, 32) solid;
 }
 #schedule-app{
     grid-column: 2 / 2;
     grid-row: 1 / 1;
-    outline: rgb(32, 83, 32) solid;
 
 
 }
@@ -36,17 +34,14 @@ body{
 .get-it{
     grid-column: 2 / 2;
     grid-row: 2 / 2;
-    outline: red solid;
 }
 .KNN{
     grid-column: 3 / 3;
     grid-row: 2 / 2;
-    outline: red solid;
 }
 nav{
     grid-column: 1 / 5;
     grid-row: 4 / 4;
-    outline: red solid;
     height: 100px;
     text-align: center;
 }
