@@ -48,11 +48,13 @@ nav{
     grid-row: 4 / 4;
     outline: red solid;
     height: 100px;
+    text-align: center;
 }
 nav ol,li{
     text-align: center;
     display: inline;
+    margin: 10px 10px 10px 10px;
 }
 nav img{
-    width: 80px;
+    width: 50px;
 }
