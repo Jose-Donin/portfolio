@@ -49,6 +49,7 @@ nav img{
     border-radius: 10px;
 }
 
+
 #about img{
     border-radius:  50%;
     height:150px;
@@ -102,6 +103,7 @@ nav img{
         grid-column: 4 / 5;
         grid-row: 2 / 2;
     }
+    
     nav{
         grid-column: 1 / 1;
         grid-row: 2 / 2;
