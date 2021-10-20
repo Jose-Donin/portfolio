@@ -15,7 +15,7 @@ li,ol{
     font-size: 19px;
 }
 div{
-    background: rgb(66, 66, 66);
+    background: rgb(37, 37, 37);
     border-radius: 30px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
@@ -43,6 +43,11 @@ nav ol,li{
 }
 nav img{
     width: 50px;
+}
+.PTI img{
+    background-color: rgb(211, 203, 203);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #about img{
@@ -109,8 +114,10 @@ nav img{
         text-align: center;
         display: inline;
         margin: 10px 10px 10px 10px;
+        padding: 10px;
     }
     nav img{
         width: 50px;
+        margin-top: 20px;
     }
 }
