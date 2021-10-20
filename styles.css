@@ -71,7 +71,7 @@ nav img{
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 5px;
     }
     #about{
@@ -103,14 +103,13 @@ nav img{
         grid-row: 2 / 2;
     }
     nav{
-        grid-column: 1 / 5;
-        grid-row: 4 / 4;
-        height: 70px;
-        text-align: center;
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        height: 20vh;
     }
     nav ol,li{
         text-align: center;
-        display: inline;
+        display: inline-block;
         margin: 10px 10px 10px 10px;
         padding: 10px;
         
