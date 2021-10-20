@@ -105,7 +105,7 @@ nav img{
     nav{
         grid-column: 1 / 5;
         grid-row: 4 / 4;
-        height: 100px;
+        height: 70px;
         text-align: center;
     }
     nav ol,li{
@@ -113,9 +113,10 @@ nav img{
         display: inline;
         margin: 10px 10px 10px 10px;
         padding: 10px;
+        
     }
     nav img{
         width: 50px;
-        margin-top: 20px;
+        margin: 10px 10px 10px 10px;
     }
 }
