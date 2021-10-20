@@ -1,62 +1,116 @@
-* h1{
-    text-align: center;
-    color: #9900ff;
-}
-* p{
-    text-align: justify;
-    color: white;
-}
-* img{
-    width: 150px;
-}
+
 body{
     background: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-#about{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    border-radius: 50px;
-}
-#about img{
-    border-radius:  50%;
-    height:150px;
-    outline: solid #9900ff;
-
-
-}
-#schedule-app{
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
-
-
-}
-.PTI{
-    grid-column: 3 / 3;
-    grid-row: 1 / 1 ;
-}
-.get-it{
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
-}
-.KNN{
-    grid-column: 3 / 3;
-    grid-row: 2 / 2;
-}
-nav{
-    grid-column: 1 / 5;
-    grid-row: 4 / 4;
-    height: 100px;
     text-align: center;
+    color: white;
+
+}
+h1{
+    color: #9900ff;
+}
+li,ol{
+    text-align:justify;
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+}
+div{
+    background: rgb(66, 66, 66);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ img{
+    width: 150px;
+}
+#about,#schedule-app,.PTI,.get-it,.KNN{
+    text-align: center;
+}
+
+nav{
+    background: rgb(46, 46, 48);
+    border-radius: 30px;
 }
 nav ol,li{
     text-align: center;
     display: inline;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
 }
 nav img{
     width: 50px;
+}
+
+#about img{
+    border-radius:  50%;
+    height:150px;
+    outline: solid #9900ff;
+}
+    @media screen and (min-width:600px) {
+    * h1{
+        text-align: center;
+        color: #9900ff;
+    }
+    * p{
+        text-align: justify;
+        color: white;
+    }
+    * img{
+        width: 150px;
+    }
+    body{
+        background: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    #about{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        border-radius: 50px;
+    }
+    #about img{
+        border-radius:  50%;
+        height:150px;
+        outline: solid #9900ff;
+    
+    
+    }
+    #schedule-app{
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    
+    
+    }
+    .PTI{
+        grid-column: 3 / 3;
+        grid-row: 1 / 1 ;
+    }
+    .get-it{
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+    }
+    .KNN{
+        grid-column: 3 / 3;
+        grid-row: 2 / 2;
+    }
+    nav{
+        grid-column: 1 / 5;
+        grid-row: 4 / 4;
+        height: 100px;
+        text-align: center;
+    }
+    nav ol,li{
+        text-align: center;
+        display: inline;
+        margin: 10px 10px 10px 10px;
+    }
+    nav img{
+        width: 50px;
+    }
 }
