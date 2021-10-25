@@ -108,15 +108,20 @@ nav img{
     nav{
         grid-column: 1 / 5;
         grid-row: 1 / 2;
-        height: 55px;
         padding: 20px;
-        border-radius: 0px;
+        margin: 0;
     }
     nav ol,li{
         text-align: center;
         display: inline;
     }
+   
     nav img{
+        border-bottom:rgb(46, 46, 48) solid 5px ;
         width: 50px;
+    }
+    nav img:hover{
+        border-bottom:#9900ff solid 5px ;
+       
     }
 }
