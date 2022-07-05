@@ -1,161 +1,30 @@
-
-@media  and (min-width:1000px) {
-    
-}    
-    body{
-    background: black;
-    text-align: center;
-    color: white;
-    }
-    h1{
-    color: #420869;
-    }
-
-    div{
-    background: rgb(12, 12, 12);
-    border-radius: 30px;
-    padding: 10px;
-    margin: 10px 10px 10px 10px;
-    }
-    p{
-    color: white;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    img{
-    width: 100px;
-    }
-    #about,#schedule-app,.PTI,.get-it,.KNN{
-    text-align: center;
-    }
-    li,ol{
-    text-align:left;
-    font-size: 16px;
-    list-style-type:none;
-    }
-    nav{
-    background: rgb(12, 12, 12);
-    border-radius: 30px;
-    padding: 0;
-    margin: 0;
-    }
-    nav ol,li{
-    text-align: center;
-    display: inline;
-    margin: 5px 5px 5px 5px;
-    }
-    nav img{
-    width: 40px;
-    padding: 0;
-    margin: 0;
-    border-bottom:rgb(12, 12, 12) solid 5px ;
-    }
-    .PTI img{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    }
-    .KNN img{
-    width:100px;
-    height:70px;
-    margin: 0;
-    padding: 0;
-    }
-    .get-it img{
-    width:100px;
-    height:50px;
-    margin: 0;
-    padding: 0;
-    }
-
-
-
-#about img{
-    border-radius:  40%;
-    height:150px;
-    width: 150px;
-    
+body{
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-    @media screen and (min-width:600px) {
-    * h1{
-        text-align: center;
-        color: #9900ff;
-    }
-    * p{
-        text-align: justify;
-        color: white;
-    }
-    * img{
-        width: 150px;
-    }
-    body{
-        background: black;
-        display: grid;
-        height: 100vh;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 5px;
-    }
-    #about{
-        grid-column: 1 / 1;
-        grid-row: 2 / 2;
-        border-radius: 50px;
-    }
-    #about img{
-        border-radius:  50%;
-        height:150px;
-        outline: solid #9900ff;
-    
-    
-    }
-    #schedule-app{
-        grid-column: 2 / 2;
-        grid-row: 2 / 2;
-    }
-    .PTI{
-        grid-column: 3 / 3;
-        grid-row: 2 / 2 ;   
-    }
-    .get-it{
-        grid-column: 2 / 2;
-        grid-row: 3 / 3 ;
-        
-    }
-    .translating{
-        grid-column: 4 / 5;
-        grid-row: 3 / 3;
-    }
-    .KNN{
-        grid-column: 4 / 5;
-        grid-row: 2 / 2;
-    }
-    .slideshow-container{
-        grid-column:3 /4;
-        grid-row: 3 / 4;
-    }
-    .slideshow-container iframe{
-        border-color: rgb(12, 12, 12);
-        border-radius: 20px;
-    }
-    
-    nav{
-        grid-column: 1 / 2;
-        grid-row: 3 / 3;
-        padding: 10px;
-        height: 50px;
-        margin: 0;
-    }
-    nav ol,li{
-        text-align: center;
-        display: inline;
-    }
-   
-    nav img{
-        border-bottom:rgb(12, 12, 12) solid 5px ;
-        width: 50px;
-    }
-    nav img:hover{
-        border-bottom:#9900ff solid 5px ;
-       
-    }
+div {
+    margin:10px;
+}
+#about img{
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.get-it img{
+    background-color: black;
+    padding: 5px;
+
+}
+nav{
+    text-align: center;
+}
+nav li{
+    list-style-type:none;
+    display: inline;
+}
+nav img{
+    width: 50px;
+    height: auto;
 }
