@@ -23,6 +23,10 @@ div {
 #about h1{
     text-align: center;
 }
+.PTI img{
+        background-color: white;
+        padding: 10px;
+}
     
 #about img{
     border-bottom-left-radius: 60px;
